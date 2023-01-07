@@ -6,22 +6,19 @@
 .header-content{
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
-    height: 960px;
+    height: 490px;
     background-position: center top;
     background-size: 100% auto;
 }
 .header-content{
-    direction:rtl;
+    direction: rtl;
     padding-top: 148px;
-    padding-left: 1039px;
-    padding-right: 333px;
+    padding-left: 690px;
+    padding-right: 78px;
 }
 .blockquote{
-    
     font-weight: 700;
     font-size: 65px;
-    
-    
     color: #FFFFFF;
 }
 /* header description */
@@ -46,16 +43,20 @@
 /* head style end */
 
 /* main section style start */
+.main{
+    margin-top: 130px;
+}
 .main-section{
+    
     display: flex;
-    gap: 90px;
-    width: 70%;
+    gap: 70px;
+    width: 90%;
     margin: auto;
     
 }
 .main-content{
     margin-top: 200px;
-    padding: 10px 211px 10px 9px;
+    padding: 10px 05 10px 5px;
 }
 .main-title{
    
@@ -63,6 +64,7 @@
     font-size: 40px;
     color:#151414;
     margin-bottom: 24px;
+    
 }
 .main-description{
     
@@ -90,6 +92,7 @@
     width: 80%;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 130px;
 }
 .plan{
     font-family: 'Work Sans', sans-serif;
@@ -120,6 +123,32 @@
     font-size: 25px;
     color: #737272;
     margin-top: 16px;
+}
+.think-positive{
+    margin: auto;
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    width: 76%;
+    margin-bottom: 130px;
+    border-radius: 10px;
+     
+    
+}
+.sub-think{
+    margin: auto;
+    padding: 23px;
+    background: linear-gradient(90deg, rgba(0,95,172,1) 0%, rgba(0,95,172,0.10127801120448177) 42%);
+    border-radius: 10px;
+    
+      
+}
+.thik-title{
+    font-weight: 700;
+    font-size: 40px;
+    color:#FFFFFF;
+    
 }
 /* footer style start */
 .end-footer{
@@ -156,7 +185,8 @@
 }
 .footer-description, a{
     text-decoration: none;
-    padding: 10px;
+    padding: 1px 1px 9px 0px;
+
 }
 .footer-two{
    padding-top: 60px;
@@ -191,29 +221,4 @@ input[type="submit"]{
     border-radius: 8px;
     
 }
-.think-positive{
-    margin-top: 130px;
-    background-image: url("../images/watch.png");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: 100%;
-    width: 71%;
-    margin-left: 277px;
-    margin-bottom: 130px;
-    border-radius: 10px;
-     
-    
-}
-.sub-think{
-    padding: 30px;
-    background: linear-gradient(90deg, rgba(0,95,172,1) 0%, rgba(0,95,172,0.10127801120448177) 42%);
-    border-radius: 10px;
-    
-      
-}
-.thik-title{
-    font-weight: 700;
-    font-size: 40px;
-    color:#FFFFFF;
-    
-}
+
