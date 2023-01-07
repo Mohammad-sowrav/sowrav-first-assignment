@@ -1,0 +1,219 @@
+*{
+    margin: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header style start */
+.header-content{
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    height: 960px;
+    background-position: center top;
+    background-size: 100% auto;
+}
+.header-content{
+    direction:rtl;
+    padding-top: 148px;
+    padding-left: 1039px;
+    padding-right: 333px;
+}
+.blockquote{
+    
+    font-weight: 700;
+    font-size: 65px;
+    
+    
+    color: #FFFFFF;
+}
+/* header description */
+.header-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    letter-spacing: normal;
+}
+/* button style  */
+.btn-white{
+    
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 19px;
+    margin-top: 30px;
+    border-style: none;
+    border-radius: 7px;
+    
+}
+/* head style end */
+
+/* main section style start */
+.main-section{
+    display: flex;
+    gap: 90px;
+    width: 70%;
+    margin: auto;
+    
+}
+.main-content{
+    margin-top: 200px;
+    padding: 10px 211px 10px 9px;
+}
+.main-title{
+   
+    font-weight: 700;
+    font-size: 40px;
+    color:#151414;
+    margin-bottom: 24px;
+}
+.main-description{
+    
+    font-weight: 400;
+    font-size: 16px;
+    color:#444343;
+    line-height: 1.4;
+}
+.main-motivate{
+    
+    margin-top: 16px;
+    width: 400;
+    font-size: 20px;
+    color:#444343;
+    
+}
+/* font awasome use */
+.fa{
+    color:aquamarine;
+    padding-right: 13px;
+    
+}
+/* main section style end */
+.secont-section{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.plan{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color:#151414;
+}
+.plan-flex{
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+}
+.plan-explain{
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.plan-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+    color:#151414;
+    margin-top: 16px;
+}
+.plan-sub-title-h3{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+/* footer style start */
+.end-footer{
+    margin-top: 40px;
+    display: flex;
+    gap: 50px   ;
+    background-color: #151414;
+    justify-content:center;
+    color:aliceblue;
+    padding: 30px 40px;
+    
+
+}
+
+.footer-one{
+    width: 632px;
+    margin: 0px 50px;
+    margin-top: 50px;
+    
+
+    
+}
+
+.footer-left{
+    width: 800;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color:#FFFFFF;
+
+}
+.footer-description, a{
+    text-decoration: none;
+    padding: 10px;
+}
+.footer-two{
+   padding-top: 60px;
+    width: 600px;
+    
+    margin: 0px 35px
+}
+.footer-right{
+    width: 700;
+    font-size: 35px;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+input[type="email"]{
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 20px;
+   padding: 0px 21px;
+    color:  #F3F3F3;
+    background-color: #151414;
+}
+input[type="submit"]{
+    font-weight: 100;
+    font-size: 20px;
+    color:#FFFFFF;
+    background-color: #005FAC;
+    height: 64px;
+    width: 170.11px;
+    border-style: none;
+    border-radius: 8px;
+    
+}
+.think-positive{
+    margin-top: 130px;
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    width: 71%;
+    margin-left: 277px;
+    margin-bottom: 130px;
+    border-radius: 10px;
+     
+    
+}
+.sub-think{
+    padding: 30px;
+    background: linear-gradient(90deg, rgba(0,95,172,1) 0%, rgba(0,95,172,0.10127801120448177) 42%);
+    border-radius: 10px;
+    
+      
+}
+.thik-title{
+    font-weight: 700;
+    font-size: 40px;
+    color:#FFFFFF;
+    
+}
