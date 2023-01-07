@@ -92,7 +92,7 @@
     width: 80%;
     margin: auto;
     margin-top: 80px;
-    margin-bottom: 130px;
+    margin-bottom: 60px;
 }
 .plan{
     font-family: 'Work Sans', sans-serif;
@@ -124,6 +124,7 @@
     color: #737272;
     margin-top: 16px;
 }
+/* thinking class style start  */
 .think-positive{
     margin: auto;
     background-image: url("../images/watch.png");
@@ -147,9 +148,8 @@
 .thik-title{
     font-weight: 700;
     font-size: 40px;
-    color:#FFFFFF;
-    
-}
+    color:#FFFFFF; 
+}   
 /* footer style start */
 .end-footer{
     margin-top: 40px;
@@ -221,4 +221,59 @@ input[type="submit"]{
     border-radius: 8px;
     
 }
+/* services style start  */
+.domain-hosting{
+    width: 75%;
+    margin: auto;
+}
+.sevice{
+    text-align: center;
+    font-weight: 900;
+    font-size: 65px;
+}
+.doamin-title{
+    font-weight: 800;
+    font-size: 45px;
+    text-align: left;
+    padding: 20px;
+    color: #151414;
+    
+
+}
+.domain{
+    display: flex;
+    gap: 50px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+}
+
+.both-description{
+    padding: 20px;
+    margin-top: 60px;
+    
+}
+.hosting-title{
+    font-weight: 800;
+    font-size: 45px;
+    text-align: right;
+    padding: 20px;
+    color: #151414;
+    margin: 10px;
+}
+.hosting{
+   display: flex;
+   gap: 50px;
+   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 130px;
+}
+.hosting-image{
+    width: 240px;
+    
+}
+
+    
 
